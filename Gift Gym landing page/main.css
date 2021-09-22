@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+main{
+    background-image: url(./assets/easy.jpeg);
+    
+    min-height:600px;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    background-color: inherit;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+h1{
+    color: white;
+}
+
+span,.second{
+    color: orangered;
+}
+
+.sun{
+    width: 20px;
+    
+}
+
+.text{
+    margin-top: 15px;
+}
+
+div a{
+    color: white;
+    text-decoration: 0;
+    padding: 10px;
+    
+}
+
+.orange{
+    background-color: orangered;
+    color: rgba(255, 255, 255, 0.801);
+}
+
+.box{
+    border: 1px solid white;
+}
+
+div .pop{
+    padding: 20px 150px;
+    align-items: center;
+}
+
+.need{
+color: white;
+padding-top: 100px ;
+padding-bottom: 20px;
+padding-left: 100px;
+padding-right: 500px;
+font-size: 25px;
+}
+.to{
+    font-size: 70px;
+}
+
+.perp{
+    font-size: 10px;
+    
+}
+.btn1{
+    background-color: inherit;
+    border: 1px solid grey;
+    color: white;
+    padding: 10px 15px;
+    margin-right: 15px;
+    margin-left: 100px;
+}
+
+.btn2{
+    background-color: white;
+    border: 1px solid grey;
+    color: black;
+    padding: 10px 15px;
+}
+
+button{
+    outline: 0;
+}
+
+@media (max-width:768px){
+    .need > h1 , h2, p{
+        font-size: 30px;
+    }
+
+    .sun2{
+        width: 25px;
+    }
+
+    div .pop{
+        padding: 20px 100px;
+   font-size: small;
+    }
+}
+
